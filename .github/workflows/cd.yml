@@ -1,0 +1,9 @@
+on:
+workflow_dispatch:
+inputs:
+image_reference:
+description: 'Docker Image (username/repo:tag)'
+required: true
+environment:
+name: production
+url: https://34.245.140.125
